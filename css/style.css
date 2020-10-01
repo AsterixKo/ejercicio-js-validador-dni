@@ -1,9 +1,27 @@
-.error-message{
-    color:purple;
+body {
+    margin: 0;
+    padding: 0;
+    background: #004f92;
+    color: #fff;
+    font-size: 14px;
+    width: auto;
+    height: auto;
+    background-image: url(/img/bg04.png);
+    background-size: cover;
 }
-.invalid-value {
-    color:red;
+
+*, body {
+    font-family: Roboto, sans-serif;
 }
-.correct-value{
-    color:green;
+
+.error-message {
+    color: purple;
+}
+
+.incorrect-value {
+    color: red;
+}
+
+.correct-value {
+    color: green;
 }
