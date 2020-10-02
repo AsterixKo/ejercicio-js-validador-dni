@@ -9,16 +9,18 @@
 <body>
     <!-- puedo introducir la letra en mayuscula o minúscula -->
     <!-- ejemplo en https://validardni.es/ -->
-    <header>
-        <h1>Comprobar DNI, NIE, CIF españoles de acuerdo con la normativa vigente</h1>
-    </header>
-    <main>
-        <section>
-            <input id="id-input-dni" type="text" placeholder="DNI, NIE, CIF" minlength="9" maxlength="9" />
-            <button id="check-button">Comprobar</button>
-            <div id="display-messages"></div>
-        </section>
-    </main>
+    <div class="container">
+        <header class="header-containter">
+            <h1 class="header-h1">Comprobar DNI, NIE, CIF españoles de acuerdo con la normativa vigente</h1>
+        </header>
+        <main class="main-container">
+            <section class="main-container-item">
+                <input id="id-input-dni" type="text" placeholder="DNI, NIE, CIF" minlength="9" maxlength="9" />
+                <button id="check-button">Comprobar</button>
+                <div id="display-messages"></div>
+            </section>
+        </main>
+    </div>
 
     <script src="js/index.js"></script>
 </body>
