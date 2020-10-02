@@ -29,6 +29,8 @@ body {
     color: green;
 }
 
+/* ALINEACION */
+
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -54,9 +56,42 @@ body {
 
 .header-h1 {
     align-self: center;
-    text-align: justify;
+    text-align: center;
 }
 
-.main-container-item{
+.main-container-item {
     align-self: center;
+}
+
+/* ESTILO BOTON */
+.button {
+    background-color: #4CAF50;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: #4CAF50;
+    color: white;
+    border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+    background-color: white;
+    color: black;
+}
+
+/* ESTILO INPUT */
+.input-text {
+    height: 48px;
+    font-size: 20px;
 }
